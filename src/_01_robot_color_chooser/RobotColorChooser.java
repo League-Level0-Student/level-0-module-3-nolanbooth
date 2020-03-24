@@ -18,16 +18,54 @@ public class RobotColorChooser {
 		chungus.setPenWidth(20);
 		chungus.changeRobot(
 				"https://media-exp1.licdn.com/dms/image/C560BAQG-vLQJr3J3zg/company-logo_200_200/0?e=2159024400&v=beta&t=cXNxHCDmX7A_e_LGk75XIbL-eVc7VYdHQfSFH39r3Qo");
+		chungus.setSpeed(20);
 		// 3. Ask the user what color they would like the robot to draw
-		String chungi = JOptionPane.showInputDialog(null, "what color do you want the robot to draw with?");
+		String chungi = JOptionPane.showInputDialog(null,
+				"what color do you want the " + "robot to draw with? The choices are limited to red, orange, "
+						+ "yellow, green, blue, purple, and gold");
 
 		// 5. Use an if/else statement to set the pen color that the user requested
 		if (chungi.equalsIgnoreCase("red")) {
 			chungus.setPenColor(100, 30, 30);
-		} else {
-			chungus.setRandomPenColor();
-
 		}
+		if (chungi.equalsIgnoreCase("orange")) {
+			chungus.setPenColor(232, 133, 46);
+		}
+		if (chungi.equalsIgnoreCase("yellow")) {
+			chungus.setPenColor(221, 224, 31);
+		}
+		if (chungi.equalsIgnoreCase("green")) {
+			chungus.setPenColor(73, 224, 31);
+		}
+		if (chungi.equalsIgnoreCase("blue")) {
+			chungus.setPenColor(35, 170, 219);
+		}
+		if (chungi.equalsIgnoreCase("purple")) {
+			chungus.setPenColor(130, 35, 219);
+		}
+		if (chungi.equalsIgnoreCase("gold")) {
+			chungus.setPenColor(207, 181, 59);
+
+		} // delete this after
+			// }
+			// else {
+			// chungus.setRandomPenColor();
+			// }
+		chungus.turn(45);
+		chungus.move(80);
+		chungus.turn(45);
+		chungus.move(80);
+		chungus.turn(45);
+		chungus.move(80);
+		chungus.turn(45);
+		chungus.move(80);
+		chungus.turn(45);
+		chungus.move(80);
+		chungus.turn(45);
+		chungus.move(80);
+		chungus.turn(45);
+		chungus.move(80);
+		chungus.turn(45);
 		chungus.move(80);
 
 // 6. If the user doesn’t enter anything, choose a random color
