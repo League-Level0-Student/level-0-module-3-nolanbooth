@@ -13,7 +13,7 @@ public class RobotColorChooser {
 	public static void main(String[] args) {
 		// 1. Create a new Robot
 		Robot chungus = new Robot();
-		chungus.miniaturize();
+		//chungus.miniaturize();
 		chungus.penDown();
 		chungus.setPenWidth(20);
 		chungus.changeRobot(
