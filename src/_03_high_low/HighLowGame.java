@@ -22,7 +22,8 @@ public class HighLowGame {
 		for (int a = 0; a < 8; a++) {
 
 			
-			String answer = JOptionPane.showInputDialog(null, "Guess a number between 1-100! ");
+			String answer = JOptionPane.showInputDialog(null, "Guess a number between 1-100! "
+					+ "By the way, you have 8 tries.");
 			// 4. Convert the users’ answer to an int (Integer.parseInt(string))
 			int num = Integer.parseInt(answer);
 			if (num == random) {
