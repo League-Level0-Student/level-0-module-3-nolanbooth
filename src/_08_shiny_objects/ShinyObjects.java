@@ -20,7 +20,7 @@ public class ShinyObjects {
 		// 1. Call the method below
 		for (int a = 0; a < response; a++) {
 
-			System.out.print("Shiny");
+			System.out.println("Shiny");
 		}
 	}
 
