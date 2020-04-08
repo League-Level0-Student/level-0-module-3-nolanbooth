@@ -5,6 +5,8 @@ Use Modulo to make the colors alternate
 */
 }
 
+
+
 void drawFlower(int x, int y) {
      noStroke();
      translate(x, y);
@@ -18,7 +20,8 @@ void drawFlower(int x, int y) {
      ellipse(0, 0, 50, 50);
 } 
 void drawBeeFace(int BeeFaceX, int BeeFaceY) {
-     noStroke();
+//drawBeeFace(250,250);
+  noStroke();
      fill(0, 0, 0);
      stroke(1);
      strokeWeight(5);
